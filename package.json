@@ -3,6 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=22.14.0",
+    "yarn": ">=1.22.22",
+    "pnpm": "please-use-yarn",
+    "bun": "please-use-yarn",
+    "npm": "please-use-yarn"
+  },
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
