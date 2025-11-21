@@ -1,8 +1,8 @@
-import { Title } from "@/shared/components";
-import { useGetAllUsers } from "@public/hooks";
+import { Title } from '@/shared/components'
+import { useGetAllUsers } from '@public/hooks'
 
 export const HomePage = () => {
-  const { data: users, isLoading } = useGetAllUsers();
+  const { data: users, isLoading } = useGetAllUsers()
   return (
     <main>
       <Title className="mb-8">Home Page - React Boilerplate</Title>
@@ -17,5 +17,5 @@ export const HomePage = () => {
         </ul>
       )}
     </main>
-  );
-};
+  )
+}

@@ -1,9 +1,9 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import { ROUTES } from "@shared/constants";
-import { Layout } from "@components/Layout";
-import { AboutPage, HomePage } from "@public/pages";
-import { SignInPage, SignUpPage } from "@sign/pages";
+import { ROUTES } from '@shared/constants'
+import { Layout } from '@components/Layout'
+import { AboutPage, HomePage } from '@public/pages'
+import { SignInPage, SignUpPage } from '@sign/pages'
 
 export const AppRoutes = () => (
   <BrowserRouter>
@@ -16,4 +16,4 @@ export const AppRoutes = () => (
       </Route>
     </Routes>
   </BrowserRouter>
-);
+)

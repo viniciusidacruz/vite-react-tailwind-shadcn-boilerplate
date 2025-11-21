@@ -1,5 +1,5 @@
-import type { ComponentProps } from "react";
+import type { ComponentProps } from 'react'
 
-export type TitleProps = ComponentProps<"div"> & {
-  description?: string;
-};
+export type TitleProps = ComponentProps<'div'> & {
+  description?: string
+}

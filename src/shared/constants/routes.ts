@@ -1,25 +1,25 @@
 export const ROUTES = {
-  HOME: "/",
-  ABOUT: "/about",
-  SIGN_IN: "/sign-in",
-  SIGN_UP: "/sign-up",
-};
+  HOME: '/',
+  ABOUT: '/about',
+  SIGN_IN: '/sign-in',
+  SIGN_UP: '/sign-up',
+}
 
 export const NAVIGATION_ROUTES = [
   {
-    label: "Home",
+    label: 'Home',
     path: ROUTES.HOME,
   },
   {
-    label: "About",
+    label: 'About',
     path: ROUTES.ABOUT,
   },
   {
-    label: "Sign In",
+    label: 'Sign In',
     path: ROUTES.SIGN_IN,
   },
   {
-    label: "Sign Up",
+    label: 'Sign Up',
     path: ROUTES.SIGN_UP,
   },
-];
+]

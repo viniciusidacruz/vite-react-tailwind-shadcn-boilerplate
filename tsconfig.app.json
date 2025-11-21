@@ -38,8 +38,8 @@
       "@services": ["./src/shared/services"],
       "@services/*": ["./src/shared/services/*"],
       "@public/*": ["./src/modules/public/*"],
-      "@sign/*": ["./src/modules/sign/*"],
+      "@sign/*": ["./src/modules/sign/*"]
     }
   },
-  "include": ["src", "__tests__"]
+  "include": ["src", "__tests__", "eslint.config.ts", "prettier.config.js"]
 }

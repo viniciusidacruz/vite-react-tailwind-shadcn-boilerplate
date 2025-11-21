@@ -114,10 +114,10 @@ O projeto utiliza aliases de caminho configurados para melhorar a legibilidade e
 
 ```typescript
 // ❌ Antes (imports relativos confusos)
-import { Button } from "../../../shared/components/Button";
+import { Button } from '../../../shared/components/Button'
 
 // ✅ Agora (imports limpos e semânticos)
-import { Button } from "@components/Button";
+import { Button } from '@components/Button'
 ```
 
 Aliases disponíveis:

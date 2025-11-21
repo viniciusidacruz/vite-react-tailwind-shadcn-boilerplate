@@ -1,7 +1,7 @@
-import { Fragment } from "react";
-import { Outlet } from "react-router-dom";
+import { Fragment } from 'react'
+import { Outlet } from 'react-router-dom'
 
-import { Navigation } from "@components/Navigation";
+import { Navigation } from '@components/Navigation'
 
 export const Layout = () => (
   <Fragment>
@@ -11,4 +11,4 @@ export const Layout = () => (
       <Outlet />
     </div>
   </Fragment>
-);
+)

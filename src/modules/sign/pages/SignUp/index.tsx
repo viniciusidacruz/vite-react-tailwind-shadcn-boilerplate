@@ -1,5 +1,5 @@
-import { Title } from "@/shared/components";
+import { Title } from '@/shared/components'
 
 export const SignUpPage = () => {
-  return <Title>Sign Up Page - React Boilerplate</Title>;
-};
+  return <Title>Sign Up Page - React Boilerplate</Title>
+}

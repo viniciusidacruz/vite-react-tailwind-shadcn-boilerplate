@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
-import { NAVIGATION_ROUTES } from "@shared/constants";
+import { NAVIGATION_ROUTES } from '@shared/constants'
 
 export const Navigation = () => (
   <nav className="flex gap-4 mt-8 w-full justify-center">
@@ -14,4 +14,4 @@ export const Navigation = () => (
       </Link>
     ))}
   </nav>
-);
+)
