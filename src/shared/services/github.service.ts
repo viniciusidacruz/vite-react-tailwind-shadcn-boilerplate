@@ -1,10 +1,9 @@
-import type { User } from "@public/types";
+import { BASE_API } from "@/shared/lib";
+import type { User } from "@/shared/types";
 
 export class GithubService {
-  private readonly BASE_URL = "https://api.github.com";
-
   async getAllUsers(): Promise<User[]> {
-    const response = await fetch(`${this.BASE_URL}/users`);
-    return response.json();
+    const response = await BASE_API.get("/users");
+    return response.data;
   }
 }
