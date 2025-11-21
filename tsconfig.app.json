@@ -36,7 +36,8 @@
       "@utils/*": ["./src/shared/utils/*"],
       "@types/*": ["./src/shared/types/*"],
       "@services/*": ["./src/shared/services/*"],
-      
+      "@public/*": ["./src/modules/public/*"],
+      "@sign/*": ["./src/modules/sign/*"],
     }
   },
   "include": ["src"]

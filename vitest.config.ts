@@ -21,6 +21,8 @@ export default defineConfig({
       "@utils": path.resolve(__dirname, "./src/shared/utils"),
       "@types": path.resolve(__dirname, "./src/shared/types"),
       "@services": path.resolve(__dirname, "./src/shared/services"),
+      "@public": path.resolve(__dirname, "./src/modules/public"),
+      "@sign": path.resolve(__dirname, "./src/modules/sign"),
     },
   },
 });
