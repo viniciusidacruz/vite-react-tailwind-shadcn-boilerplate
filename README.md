@@ -1,17 +1,17 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="120" height="120" />
-  
+
   <h1>⚡ Vite React Tailwind Shadcn Boilerplate</h1>
-  
+
   <p>
-    Um boilerplate moderno e completo para desenvolvimento React com TypeScript, 
+    Um boilerplate moderno e completo para desenvolvimento React com TypeScript,
     arquitetura modular e as melhores práticas da indústria.
   </p>
-  
+
   <p>
     <strong>⭐ Se este projeto foi útil para você, não esqueça de dar uma estrela!</strong>
   </p>
-  
+
   <p>
     <strong>🍴 Faça um fork deste repositório para começar seu projeto!</strong>
   </p>
@@ -23,10 +23,12 @@
 
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Principais Tecnologias](#-principais-tecnologias)
+- [Ferramentas de Desenvolvimento](#-ferramentas-de-desenvolvimento)
 - [Arquitetura Modular](#-arquitetura-modular)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Como Usar](#-como-usar)
 - [Scripts Disponíveis](#-scripts-disponíveis)
+- [Configuração do VS Code](#-configuração-do-vs-code)
 
 ## 🚀 Sobre o Projeto
 
@@ -68,7 +70,42 @@ Framework de testes moderno e rápido, compatível com Vite. Oferece API similar
 
 ### **ESLint**
 
-Ferramenta de linting que ajuda a manter a consistência do código e detectar problemas antes mesmo de executar. Configurado com regras específicas para React e TypeScript.
+Ferramenta de linting que ajuda a manter a consistência do código e detectar problemas antes mesmo de executar. Configurado com regras específicas para React e TypeScript, usando a nova flat config do ESLint 9.
+
+## 🛠 Ferramentas de Desenvolvimento
+
+### **Prettier**
+
+Formatador de código automático que garante consistência visual em todo o projeto. Configurado para trabalhar em conjunto com ESLint, removendo conflitos e garantindo que o código seja formatado de acordo com as melhores práticas.
+
+**Configurações principais:**
+
+- Espaços em vez de tabs
+- Aspas simples
+- Sem ponto e vírgula
+- Trailing commas (ES5)
+- Line endings: LF
+
+### **EditorConfig**
+
+Padroniza configurações do editor entre diferentes IDEs e editores. Garante que todos os desenvolvedores usem as mesmas configurações de indentação, charset e quebra de linha, independente do editor escolhido.
+
+**Configurações:**
+
+- Indentação: 2 espaços
+- Charset: UTF-8
+- Line endings: LF
+- Trim trailing whitespace: habilitado
+- Insert final newline: habilitado
+
+### **VS Code - Configuração Recomendada**
+
+O projeto inclui configurações do VS Code para melhorar a experiência de desenvolvimento:
+
+- **Extensões recomendadas**: O VS Code sugerirá automaticamente as extensões necessárias ao abrir o projeto
+- **Formatação automática**: O código é formatado automaticamente ao salvar usando Prettier
+- **Correção automática do ESLint**: Problemas do ESLint são corrigidos automaticamente ao salvar
+- **Suporte completo ao TypeScript**: Configuração otimizada para TypeScript e React
 
 ## 🏗 Arquitetura Modular
 
@@ -198,6 +235,42 @@ yarn dev
 - `yarn test:watch` - Executa os testes em modo watch
 - `yarn test:coverage` - Executa os testes com cobertura
 - `yarn lint` - Executa o linter
+- `yarn lint:fix` - Executa o linter e corrige problemas automaticamente
+- `yarn format` - Formata todos os arquivos com Prettier
+- `yarn format:check` - Verifica se todos os arquivos estão formatados (útil para CI/CD)
+
+## ⚙️ Configuração do VS Code
+
+Este projeto inclui configurações otimizadas para VS Code que melhoram significativamente a experiência de desenvolvimento:
+
+### **Extensões Recomendadas**
+
+Ao abrir o projeto no VS Code, você receberá sugestões para instalar as seguintes extensões:
+
+- **ESLint** - Integração com ESLint para linting em tempo real
+- **Prettier** - Formatador de código
+- **EditorConfig** - Suporte ao EditorConfig
+- **Tailwind CSS IntelliSense** - Autocomplete e validação para Tailwind CSS
+- **TypeScript and JavaScript Language Features** - Suporte aprimorado ao TypeScript
+
+### **Configurações Automáticas**
+
+O projeto está configurado para:
+
+✅ **Formatar ao salvar** - Todos os arquivos são formatados automaticamente com Prettier ao salvar
+✅ **Corrigir ESLint ao salvar** - Problemas do ESLint são corrigidos automaticamente
+✅ **Formatar ao colar** - Código colado é formatado automaticamente
+✅ **Usar Prettier como formatador padrão** - Prettier é o formatador padrão para todos os arquivos
+✅ **Configurações de arquivo** - Line endings (LF), trim trailing whitespace, insert final newline
+
+### **Como Usar**
+
+1. Abra o projeto no VS Code
+2. Aceite a instalação das extensões recomendadas quando solicitado
+3. As configurações serão aplicadas automaticamente
+4. Ao salvar qualquer arquivo, ele será formatado automaticamente
+
+**Nota**: Se você não usar VS Code, certifique-se de que seu editor suporte EditorConfig e Prettier para manter a consistência do código.
 
 ---
 
