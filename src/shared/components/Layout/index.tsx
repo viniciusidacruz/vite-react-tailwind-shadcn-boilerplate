@@ -7,7 +7,7 @@ export const Layout = () => (
   <Fragment>
     <Navigation />
 
-    <div className="flex flex-col items-center justify-center w-full h-[calc(100vh-8rem)] text-center">
+    <div className="flex flex-col items-center justify-center w-full min-h-[calc(100vh-8rem)] text-center">
       <Outlet />
     </div>
   </Fragment>
