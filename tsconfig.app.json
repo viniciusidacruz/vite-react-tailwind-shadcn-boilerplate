@@ -40,5 +40,5 @@
       "@sign/*": ["./src/modules/sign/*"],
     }
   },
-  "include": ["src"]
+  "include": ["src", "__tests__"]
 }

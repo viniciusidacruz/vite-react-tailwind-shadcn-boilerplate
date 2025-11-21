@@ -1,3 +1,5 @@
+import { Title } from "@/shared/components";
+
 export const AboutPage = () => {
-  return <div className="wrapper">AboutPage</div>;
+  return <Title>About Page - React Boilerplate</Title>;
 };

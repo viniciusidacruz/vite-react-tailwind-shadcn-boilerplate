@@ -1,10 +1,14 @@
+import { Fragment } from "react";
 import { Outlet } from "react-router-dom";
 
 import { Navigation } from "@components/Navigation";
 
 export const Layout = () => (
-  <div className="wrapper">
+  <Fragment>
     <Navigation />
-    <Outlet />
-  </div>
+
+    <div className="flex flex-col items-center justify-center w-full h-[calc(100vh-8rem)] text-center">
+      <Outlet />
+    </div>
+  </Fragment>
 );

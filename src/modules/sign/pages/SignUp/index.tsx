@@ -1,3 +1,5 @@
+import { Title } from "@/shared/components";
+
 export const SignUpPage = () => {
-  return <div className="wrapper">SignUpPage</div>;
+  return <Title>Sign Up Page - React Boilerplate</Title>;
 };

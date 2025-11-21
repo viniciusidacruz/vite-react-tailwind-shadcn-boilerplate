@@ -1,3 +1,5 @@
+import { Title } from "@/shared/components";
+
 export const HomePage = () => {
-  return <div className="wrapper">HomePage</div>;
+  return <Title>Home Page - React Boilerplate</Title>;
 };
